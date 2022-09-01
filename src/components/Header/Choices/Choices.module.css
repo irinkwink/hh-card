@@ -1,0 +1,23 @@
+.button {
+  width: 300px;
+  height: 65px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #00C78B;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background-color: #019f70;
+}
+
+
+@media (max-width: 1024px) {
+  .button {
+    width: 220px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
